@@ -41,7 +41,6 @@ body {
 }
 
 .nav-link {
-  margin-right: 40px;
   color: var(--main-color);
   font-weight: 500;
   font-size: 16px;
@@ -230,19 +229,22 @@ address {
 
 .address-list {
   display: flex;
+  align-items: center;
   outline: 1px solid var(--checking-borders);
 }
 
 .container-menu {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  padding: 24px 0px;
+  /* padding: 24px 0px; */
   border: 1px solid cornflowerblue;
   outline: 1px solid var(--checking-borders);
 }
 
 .logo-and-nav {
   display: flex;
+  align-items: center;
   outline: 1px solid var(--checking-borders);
 }
 
@@ -265,6 +267,7 @@ address {
 
 .list-menu {
   display: flex;
+  padding-top: 96px;
   outline: 1px solid (--checking-borders);
 }
 
@@ -333,4 +336,14 @@ a.nav-logo {
   max-width: 264px;
   width: 23%;
   outline: 1px solid var(--checking-borders);
+}
+
+.nav-item:not(:first-child) {
+  margin-left: 40px;
+}
+
+.nav-link,
+.nav-logo,
+.address-item {
+  padding: 24px 0px;
 }
