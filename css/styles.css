@@ -86,7 +86,7 @@ header {
 /*Styles for main*/
 
 .hero {
-  padding: 188px 473px;
+  padding: 188px;
   background: var(--main-color);
   text-align: center;
 }
