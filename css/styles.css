@@ -17,6 +17,15 @@ body {
   background-color: var(--white-color);
 }
 
+.section {
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
+.doing.section {
+  padding-top: 0;
+}
+
 /*Styles for header*/
 
 .nav-logo {
@@ -131,6 +140,7 @@ body {
 
 .btn-item {
   padding: 12px 24px;
+  border: 1px solid var(--header-border);
   border-radius: 4px;
   font-family: 'Roboto', 'Verdana', sans-serif;
   background-color: var(--background-color);
@@ -250,7 +260,6 @@ address {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* padding: 24px 0px; */
   border-bottom: 1px solid var(--header-border);
   /* outline: 1px solid var(--checking-borders); */
 }
@@ -301,9 +310,9 @@ a.nav-logo {
   margin-left: 40px;
 }
 
-.features-list {
+/* .features-list {
   padding: 120px 0px;
-}
+} */
 
 .features-item:not(:first-child) {
   margin-left: 24px;
@@ -324,7 +333,7 @@ a.nav-logo {
 
 .team-title {
   text-align: center;
-  padding-top: 120px;
+  /* padding-top: 120px; */
   margin-bottom: 72px;
 }
 
@@ -387,8 +396,8 @@ img {
   display: block;
 }
 
-.portfolio-container {
-  padding-bottom: 120px;
+.portfolio.portfolio-container {
+  padding-top: 0;
 }
 
 .btn-list:not(:first-child) {
@@ -396,12 +405,12 @@ img {
 }
 
 .team-item {
-  margin-bottom: 120px;
+  /* margin-bottom: 120px; */
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
 
-.doing-list {
+/* .doing-list {
   margin-bottom: 120px;
-}
+} */
