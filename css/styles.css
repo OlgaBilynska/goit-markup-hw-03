@@ -367,7 +367,7 @@ a.nav-logo {
 
 .portfolio-item {
   margin-right: 24px;
-  width: calc(100% - 48px) / 3;
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-item:nth-child(3n) {
