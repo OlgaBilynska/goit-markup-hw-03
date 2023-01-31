@@ -95,7 +95,7 @@ header {
   margin: auto;
   font-weight: 700;
   text-align: center;
-  min-width: 496px;
+  width: 496px;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
