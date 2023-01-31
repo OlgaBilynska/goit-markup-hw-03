@@ -153,6 +153,10 @@ body {
   padding-bottom: 48px;
 }
 
+.portfolio-item-list {
+  border-bottom: 1px solid var(--header-border);
+}
+
 .portfolio-item:nth-last-child(-n + 3) {
   padding-bottom: 0px;
 }
@@ -329,9 +333,7 @@ a.nav-logo {
 }
 
 .team-subtitle,
-.team-text,
-.portfolio-subtitle,
-.portfolio-text {
+.team-text {
   text-align: center;
 }
 
@@ -373,6 +375,8 @@ a.nav-logo {
 
 .portfolio-content {
   margin-top: 32px;
+  padding-bottom: 32px;
+  justify-content: left;
 }
 
 .portfolio-text {
